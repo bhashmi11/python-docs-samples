@@ -23,6 +23,19 @@
 </head>
 <body>
 
+ <!-- Search widget script bundle -->
+<script src="https://gen-ai-app-builder.appspot.com/preview/client"></script>
+
+<!-- Search widget element is not visible by default -->
+<gen-search-widget
+  widgetConfigName="projects/308351622118/locations/global/collections/default_collection/dataStores/bio-lab_1683663774017/widgetConfigs/default_search_widget_config"
+  apiKey="AIzaSyCZyd8WDv4Rv09veO3L0ARrOC-Dm5dmyd0"
+  triggerId="searchWidgetTrigger">
+</gen-search-widget>
+
+<!-- Element that opens the widget on click. It does not have to be an input -->
+<input placeholder="Search here" id="searchWidgetTrigger" />
+ 
   <h1>Datastore and Firebase Auth Example</h1>
 
   <h2>Last 10 visits</h2>
